@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@1,300&family=Sofia+Sans+Extra+Condensed:ital,wght@1,300&display=swap');
+
+
+:root {
+    --main-bg-color: #c9260d;;
+  }
+
+*{
+    padding: 0;
+    margin: 0px;
+}
+body{
+    padding: 0;
+    margin: 0px; 
+}
+
+header
+{
+    font-family: candara;
+    background: rgb(7, 1, 19);
+    height: 100px;
+    position: fixed;
+    /* margin: 0px; */
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#Logo{
+    font-size: 100px;
+    position: fixed;
+    display: block;
+}
+/* gallary  */
+
+
+nav{
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+    
+}
+
+nav ul{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+nav ul li{
+    color: yellow;
+   
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    
+    padding: 0 73px;
+
+
+}
+
+/* body{
+    height: 1000px;
+} */
+
+video{
+    width: 800px;
+    text-align: right;
+    border: 2px solid black;
+   
+   
+    
+}
+
+
+
+#image {
+   /* margin: 200px; */
+   /* padding: 20px; */
+ 
+   width: 100%;
+   height: 450px;
+   text-align: center;
+   
+   /* padding: 20px;  */
+}
+#cardii{
+    display: flex;
+    padding: 20px;
+    margin-left: 180px;
+    /* margin-left: 80px; */
+    padding-right: 20px;
+    
+
+}
+
+#facta{
+    text-align: center;
+    margin-left: 450px;
+    padding: 50px;
+    font-weight: bold;
+
+    /* background-color: aqua; */
+    
+
+    /*  */
+    /* width: 100%;
+    height: 200px; */
+    /* display: flex; */
+    
+
+}
+
+#testi{
+    text-align: center;
+    padding: 20px;
+
+}
+
+#testa{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding: auto;
+    margin-left: 80px;
+    /*  */
+    /* text-align: center; */
+    /* background-color: lightblue;
+    width: 100%; */
+    /*  */
+    /* width: 100%;
+    height: 400px;
+    display: flex; */
+
+   
+    
+}
+
+#testaa{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    margin: 20px;
+    /* background-color: lightblue; */
+}
+
+#coll{
+    display: flex;
+    padding-right: 20px;
+    width: 100px;
+    height: 200px;
+    margin: 50px;
+}
+
+/* event  */
+#Ev{
+    padding-top: 150px;
+    text-align: center;
+    background-color:gray;
+}
+
+#Evv{
+    /* display flux is used to make element in 1 line or same line or make  horizontal  */
+    display: flex;
+    padding: 20px;
+    /* margin-right: 20px;
+    offset-distance: 20px; */
+
+    
+}
+
+#Ev1{
+    /* width: 500px;
+    height: 300px; */
+    /* text-align: left; */
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+#lines{
+        display:inline-flex;
+        justify-content:center;
+        flex-direction:column;
+        padding: opx 12px;
+        margin: 6px;  
+    }
+
+/* 
+#Ev2{
+    padding-right: 20px;
+    width: 500px;
+    height: 300px;
+    text-align: right;
+} */
+
+.missi{
+    display: flex;
+    text-align: justify;
+    display: inline-flex;
+    text-justify: auto;
+    
+}
+.li{
+    padding: 20px;
+    text-decoration: none;
+}
+/* .card-text{
+    text-align: center;
+    text-decoration: dashed;
+    display: flex;
+} */
+
+/* .AAA{
+    padding-left: 550px;
+    
+    padding-top: 50px;
+} */
+
+para{
+    text-align: right;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* about  */
+#col-lg-12{
+    background-color: rgb(7, 1, 19);
+    /* color: yellow; */
+    text-align: center;
+    width:100%;
+    height: 250px;
+    color: white;
+    display: block;
+}
+
+.col{
+    color: rgb(22, 21, 21);
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    width: 100%;
+}
+.a-button{
+border: 2px;
+margin: 0px;
+/* padding-left: 550px; */
+font-weight: bold;
+/* background-color: #c9260d; */
+width: 100%;
+
+}
+
+#ico{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    margin: 10px;
+    
+}
+
+/* gallary */
+#gall{
+    margin-top: 20px;
+    width: 1220px;
+    height: 600px;
+}
+#gall2{
+    margin-top: 100px;
+}
+div.ga{
+    border: 1px solid #ccc;
+}
+div.ga img{
+    width: 100%;
+  height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #c9260d;
+    font-weight: bold;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  } 
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+
+
+  /* contact  */
+  #con{
+    
+   
+    text-align: center;
+    background-color: rgb(205, 29, 205);
+  }
+
+  #conn{
+    padding-top: 100px;
+  }
+
+  #mmm{
+    text-align: center;
+    background-color: gray;
+    font-size: large;
+    font-weight:var(--main-bg-color);
+  }
+
+#foot{
+    
+    height: 350px;
+    /* 200vh */
+    position: relative;
+    background-color:rgb(7, 1, 19);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    
+    padding: 10px;
+}
+
+#fot{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    
+}
+
+
+
+p{
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* .my-2{
+    margin: 26px 0;
+}
+.text-center{
+    text-align: center;
+} */

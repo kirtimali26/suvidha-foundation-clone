@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="3.gallary.html">
+    <style >
+        div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            animation: mymove;
+            position: relative;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+
+        @keyframes mymove {
+            0% {
+                background: red;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background: green;
+                left: 1000px;
+                top: 0px;
+            }
+
+            50% {
+                background: blue;
+                left: 1000px;
+                top: 200px;
+            }
+
+            75% {
+                background: yellow;
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                background: red;
+                left: 0px;
+                top: 0px;
+            }
+
+
+        }
+        </style>
+</head>
+<body>
+    <div style="font-size: 30px; text-align:center; color: black; 
+    font-weight: bold; ">Gallery</div>
+   <p style="text-align: center; color: red; font-family: tahoma;
+    text-shadow: 20px 20px 3px blue; font-size: 50px;">Gallery</p>
+</body>
+</html>
